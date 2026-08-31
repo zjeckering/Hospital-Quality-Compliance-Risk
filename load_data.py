@@ -73,25 +73,6 @@ complications_and_deaths_columns = {
     "End Date": "End_Date",
 }
 
-timely_and_effective_care_columns = {
-    "Facility ID": "Facility_ID",
-    "Facility Name": "Facility_Name",
-    "Address": "Address",
-    "City/Town": "City_Town",
-    "State": "State",
-    "ZIP Code": "ZIP_Code",
-    "County/Parish": "County_Parish",
-    "Telephone Number": "Telephone_Number",
-    "Condition": "Condition_Name",
-    "Measure ID": "Measure_ID",
-    "Measure Name": "Measure_Name",
-    "Score": "Score",
-    "Sample": "Sample",
-    "Footnote": "Footnote",
-    "Start Date": "Start_Date",
-    "End Date": "End_Date",
-}
-
 unplanned_hospital_visits_columns = {
     "Facility ID": "Facility_ID",
     "Facility Name": "Facility_Name",
@@ -144,11 +125,6 @@ load_plan = [
         "csv": "data/Complications_and_Deaths-Hospital.csv",
         "table": "Complications_and_Deaths",
         "rename_map": complications_and_deaths_columns,
-    },
-    {
-        "csv": "data/Timely_and_Effective_Care-Hospital.csv",
-        "table": "Timely_and_Effective_Care",
-        "rename_map": timely_and_effective_care_columns,
     },
     {
         "csv": "data/Unplanned_Hospital_Visits-Hospital.csv",

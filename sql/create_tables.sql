@@ -60,25 +60,6 @@ CREATE TABLE dbo.Complications_and_Deaths (
     End_Date                          VARCHAR(20)
 );
 
-CREATE TABLE dbo.Timely_and_Effective_Care (
-    Facility_ID        VARCHAR(10),
-    Facility_Name      VARCHAR(150),
-    Address            VARCHAR(150),
-    City_Town          VARCHAR(50),
-    State              VARCHAR(5),
-    ZIP_Code           VARCHAR(10),
-    County_Parish      VARCHAR(50),
-    Telephone_Number   VARCHAR(20),
-    Condition_Name     VARCHAR(60),
-    Measure_ID         VARCHAR(60),
-    Measure_Name       VARCHAR(400),
-    Score              VARCHAR(30),
-    Sample             VARCHAR(30),
-    Footnote           VARCHAR(30),
-    Start_Date         VARCHAR(20),
-    End_Date           VARCHAR(20)
-);
-
 CREATE TABLE dbo.Unplanned_Hospital_Visits (
     Facility_ID              VARCHAR(10),
     Facility_Name            VARCHAR(150),
